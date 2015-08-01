@@ -98,10 +98,10 @@ SBAN = SBAN or {}
 						end
 					end
 					
-					if reset then SBAN.Admin_Reset( ply ) end //Reset admin
+					-- if reset then SBAN.Admin_Reset( ply ) end //Reset admin
 				end )
 			else
-				SBAN.Admin_Reset( ply )	//Reset admin
+				-- SBAN.Admin_Reset( ply )	//Reset admin
 			end
 		end )
 	end
